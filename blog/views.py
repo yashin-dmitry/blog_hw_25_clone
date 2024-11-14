@@ -3,6 +3,9 @@ from django.views.generic import ListView, DetailView, CreateView, UpdateView, D
 from .models import BlogPost
 from django.utils import timezone
 
+
+
+
 class BlogListView(ListView):
     model = BlogPost
     template_name = 'blog/blog_list.html'
